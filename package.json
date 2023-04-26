@@ -10,10 +10,14 @@
     "@matterlabs/hardhat-zksync-verify": "^0.1.5",
     "@nomiclabs/hardhat-etherscan": "^3.1.7",
     "@openzeppelin/contracts": "^4.8.3",
+    "@typechain/ethers-v5": "^10.2.0",
+    "@typechain/hardhat": "^6.1.5",
+    "dayjs": "^1.11.7",
     "dotenv": "^16.0.3",
     "ethers": "^5.7.2",
     "hardhat": "^2.14.0",
     "ts-node": "^10.9.1",
+    "typechain": "^8.1.1",
     "typescript": "^5.0.4",
     "zksync-web3": "^0.14.3"
   }

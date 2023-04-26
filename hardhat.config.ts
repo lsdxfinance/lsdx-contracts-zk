@@ -2,6 +2,7 @@ import dotenv from "dotenv";
 import "@matterlabs/hardhat-zksync-deploy";
 import "@matterlabs/hardhat-zksync-solc";
 import "@matterlabs/hardhat-zksync-verify";
+import "@typechain/hardhat";
 
 dotenv.config();
 
@@ -35,5 +36,9 @@ module.exports = {
   },
   solidity: {
     version: "0.8.8",
+  },
+  typechain: {
+    outDir: "typechain",
+    target: "ethers-v5",
   },
 };
